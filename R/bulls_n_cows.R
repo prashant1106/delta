@@ -25,7 +25,7 @@ calculate_bulls_cows <- function(secret, guess) {
 # Function to play the game
 bulls_n_cows <- function() {
   secret <- generate_number()
- cat("Secret number (for testing purposes):", secret, "\n")
+ # cat("Secret number (for testing purposes):", secret, "\n")
   attempts <- 0
 
   cat(paste0("\033[0;", 33, "m","Welcome to Bulls and Cows!","\033[0m\n"))
