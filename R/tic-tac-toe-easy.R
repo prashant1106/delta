@@ -51,7 +51,7 @@ tic_tac_toe_easy <- function() {
   ai <- "O"
 
   cat("Welcome to easy version of Tic-Tac-Toe!\n")
-  print_board(board)
+  print_board_easy(board)
 
   while (TRUE) {
     # Human player move
@@ -76,7 +76,7 @@ tic_tac_toe_easy <- function() {
     }
 
     board[row, col] <- player
-    print_board(board)
+    print_board_easy(board)
 
     if (check_winner_easy(board)) {
       cat("Player", player, "wins!\n")
@@ -92,7 +92,7 @@ tic_tac_toe_easy <- function() {
     cat("AI", ai, "'s turn.\n")
     ai_pos <- ai_move_easy(board)
     board[ai_pos[1], ai_pos[2]] <- ai
-    print_board(board)
+    print_board_easy(board)
 
     if (check_winner_easy(board)) {
       cat("AI", ai, "wins!\n")

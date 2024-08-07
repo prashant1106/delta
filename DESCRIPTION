@@ -2,7 +2,7 @@ Type: Package
 Package: delta
 Title: Delta
 Description: Delta is a package of some of the usefull tools for data handling and some games to play in free time. It is collection of random data generators, outlier finder, Na value remover. And if you feel bored it has some console based inbuilt games.
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: person("Prashant", "Kumar", "Jha", email = "jha.prashant1106@gmail.com", role = c("aut", "cre", "cph"))
 License: MIT + file LICENSE
 Depends:
